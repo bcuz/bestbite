@@ -12,6 +12,9 @@ html, body {
 
 
 /* Header */
+.header {
+  height: 120px;
+}
 .nav-pills li a {
   color: #d8192f;
 }
