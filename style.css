@@ -15,6 +15,11 @@ html, body {
 .header {
   height: 120px;
 }
+h1 {
+  position: relative;
+  top: 20px;
+}
+
 .nav-pills li a {
   color: #d8192f;
 }
