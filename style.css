@@ -24,6 +24,10 @@ html, body {
   color:#fff;
 }
 
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover {
+  background-color: rgba(216,25,47,1);
+}
+
 
 /* Jumbotron */
 .jumbotron {
