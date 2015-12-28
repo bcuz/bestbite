@@ -99,6 +99,7 @@ li:nth-child(2), li:nth-child(3) {
   background-color: rgba(216,25,47,.5);
   color: #fff;
   border: none;
+  margin-top: 10px;
 }
 
 /* "Page header" */
