@@ -66,6 +66,17 @@ li:nth-child(2), li:nth-child(3) {
   font-size: 60px;
 }
 
+.browse {
+  margin-left: 15%;
+}
+
+.share {
+  margin-left: 17.66%;
+}
+
+.col-md-2 {
+  margin-top: -20px;
+}
 
 /* Banner */
 .banner, .supporting {
