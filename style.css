@@ -20,6 +20,11 @@ h1 {
   top: 20px;
 }
 
+.nav {
+  margin-top: 33px;
+  margin-left: 100px;
+}
+
 .nav-pills li a {
   color: #d8192f;
 }
