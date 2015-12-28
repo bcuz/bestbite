@@ -25,6 +25,11 @@ h1 {
   margin-left: 100px;
 }
 
+li:nth-child(2), li:nth-child(3) {
+  border: 1px solid rgba(216,25,47,1);
+  border-radius: 4px;
+}
+
 .nav-pills li a {
   color: #d8192f;
 }
