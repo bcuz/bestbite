@@ -91,6 +91,11 @@ li:nth-child(2), li:nth-child(3) {
   color: #fff;
 }
 
+/* "Page header" */
+.page-header h3 {
+  text-align: center;
+}
+
 /* Media Queries */
 @media (max-width: 680px) {
   .header h1 {
