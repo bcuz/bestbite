@@ -109,6 +109,10 @@ li:nth-child(2), li:nth-child(3) {
   font-size: 30px;
 }
 
+.page-header {
+  margin-top: 75px;
+}
+
 /* Media Queries */
 @media (max-width: 680px) {
   .header h1 {
