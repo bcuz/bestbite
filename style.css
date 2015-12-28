@@ -91,6 +91,10 @@ li:nth-child(2), li:nth-child(3) {
   color: #fff;
 }
 
+.banner h3 {
+  font-size: 30px;
+}
+
 /* "Page header" */
 .page-header h3 {
   text-align: center;
