@@ -95,6 +95,12 @@ li:nth-child(2), li:nth-child(3) {
   font-size: 30px;
 }
 
+.banner a {
+  background-color: rgba(216,25,47,.5);
+  color: #fff;
+  border: none;
+}
+
 /* "Page header" */
 .page-header h3 {
   text-align: center;
