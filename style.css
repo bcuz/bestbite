@@ -36,6 +36,7 @@ li:nth-child(2), li:nth-child(3) {
 
 .nav-pills li a {
   color: #d8192f;
+  padding: 10px 20px;
 }
 
 .nav-pills li.active a,
