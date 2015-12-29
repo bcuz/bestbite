@@ -30,13 +30,8 @@ h1 {
     margin: 0 10px;
 }
 
-.nav li:nth-child(2),
-.nav li:nth-child(3) {
-    border: 1px solid rgba(216, 25, 47, 1);
-    border-radius: 4px;
-}
-
 .nav-pills li a {
+    border: 1px solid rgba(216, 25, 47, 1);
     color: #d8192f;
     padding: 10px 20px;
 }
