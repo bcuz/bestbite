@@ -172,13 +172,26 @@ h4 {
 
   .nav {
     float: none;
-    margin: 0 auto;
+    text-align: center;
   }
+
   .banner {
     height: 220px;
   }
 
   .nav-pills li:first-child a  {
     margin-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 680px) and (max-width: 1000px) {
+  /* remember to change max/min */
+  .header {
+    height: 175px;
+  }
+
+  .nav {
+    float: right;
   }
 }
