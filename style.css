@@ -107,7 +107,7 @@ h1 {
 .banner a {
     background-color: rgba(216, 25, 47, .5);
     color: #fff;
-    border: none;
+    border: 0px;
     margin-top: 10px;
 }
 
