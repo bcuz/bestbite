@@ -116,6 +116,7 @@ li:nth-child(2), li:nth-child(3) {
 /* Section */
 h4 {
   text-align: center;
+  color: #D8192F;
 }
 
 /* Media Queries */
