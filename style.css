@@ -1,201 +1,211 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Arvo', serif;
-  font-size: 16px;
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo', serif;
+    font-size: 16px;
 }
 
 .container {
-  max-width: 940px;
-  margin: 0 auto;
+    max-width: 940px;
+    margin: 0 auto;
 }
 
 
 /* Header */
+
 .header {
-  height: 120px;
+    height: 120px;
 }
 
 h1 {
-  position: relative;
-  top: 20px;
+    position: relative;
+    top: 20px;
 }
 
 .nav {
-  margin-top: 33px;
-  margin-left: 100px;
+    margin-top: 33px;
+    margin-left: 100px;
 }
 
 .nav li {
-  margin: 0 10px;
+    margin: 0 10px;
 }
 
-.nav li:nth-child(2), .nav li:nth-child(3) {
-  border: 1px solid rgba(216,25,47,1);
-  border-radius: 4px;
+.nav li:nth-child(2),
+.nav li:nth-child(3) {
+    border: 1px solid rgba(216, 25, 47, 1);
+    border-radius: 4px;
 }
 
 .nav-pills li a {
-  color: #d8192f;
-  padding: 10px 20px;
+    color: #d8192f;
+    padding: 10px 20px;
 }
 
 .nav-pills li.active a,
 .nav-pills li a:hover,
 .banner .btn:hover {
-  background-color:rgba(216,25,47,1);
-  box-shadow:0 2px 4px rgba(0,0,0,.5);
-  color:#fff;
+    background-color: rgba(216, 25, 47, 1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+    color: #fff;
 }
 
 .btn-default:focus {
-  background-color: rgba(216, 25, 47, 0.5);
-  color: #fff;
-  border-color: #fff;
+    background-color: rgba(216, 25, 47, 0.5);
+    color: #fff;
+    border-color: #fff;
 }
 
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover {
-  background-color: rgba(216,25,47,1);
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover {
+    background-color: rgba(216, 25, 47, 1);
 }
 
 .jumbotron .container {
-  position: relative;
-  top: 100px;
+    position: relative;
+    top: 100px;
 }
 
+
 /* Jumbotron */
+
 .jumbotron {
-  height: 500px;
-  background: url(https://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg) no-repeat center center;
-  background-size: cover;
-  color: #fff;
-  font-size: 60px;
-  text-align: right;
+    height: 500px;
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    font-size: 60px;
+    text-align: right;
 }
 
 .browse {
-  margin-left: 15%;
+    margin-left: 15%;
 }
 
 .share {
-  margin-left: 17.66%;
+    margin-left: 17.66%;
 }
 
 .col-md-2 {
-  margin-top: -20px;
+    margin-top: -20px;
 }
 
+
 /* Banner */
-.banner, .supporting {
-  text-align: center;
-  padding-top: 40px;
+
+.banner,
+.supporting {
+    text-align: center;
+    padding-top: 40px;
 }
 
 .banner {
-  background-color:#36343f;
-  height:180px;
-  color: #fff;
+    background-color: #36343f;
+    height: 180px;
+    color: #fff;
 }
 
 .banner h3 {
-  margin-top: 10px;
-  font-size: 30px;
+    margin-top: 10px;
+    font-size: 30px;
 }
 
 .banner a {
-  background-color: rgba(216,25,47,.5);
-  color: #fff;
-  border: none;
-  margin-top: 10px;
+    background-color: rgba(216, 25, 47, .5);
+    color: #fff;
+    border: none;
+    margin-top: 10px;
 }
 
+
 /* "Page header" */
+
 .page-header h3 {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 .page-header {
-  margin-top: 75px;
+    margin-top: 75px;
 }
 
+
 /* Section */
+
 .section {
-  text-align: center;
-  margin-bottom: 75px;
+    text-align: center;
+    margin-bottom: 75px;
 }
 
 h4 {
-  color: #D8192F;
-  font-size: 20px;
-  margin: 20px 0;
+    color: #D8192F;
+    font-size: 20px;
+    margin: 20px 0;
 }
 
 .section ul {
-  list-style: none;
-  padding-left: 0;
+    list-style: none;
+    padding-left: 0;
 }
 
 .footer {
-  height: 130px;
-  background-color: #eeeeee;
-  font-size: 14px;
+    height: 130px;
+    background-color: #eeeeee;
+    font-size: 14px;
 }
 
 .footer .container {
-  position: relative;
-  top: 30px;
+    position: relative;
+    top: 30px;
 }
 
 .footer a {
-  color: #D8192F;
+    color: #D8192F;
 }
 
-.footer .col-md-4:nth-child(2), .footer .col-md-4:nth-child(3) {
-  text-align: center;
+.footer .col-md-4:nth-child(2),
+.footer .col-md-4:nth-child(3) {
+    text-align: center;
 }
 
 .footer .col-md-4 {
-  width: 33.33%;
-  float: left;
+    width: 33.33%;
+    float: left;
 }
-
 
 @media screen and (max-width: 1000px) {
-  /* remember to change max/min */
-
-  .header {
-    height: 175px;
-  }
-
-  .nav {
-    float: right;
-  }
+    /* remember to change max/min */
+    .header {
+        height: 175px;
+    }
+    .nav {
+        float: right;
+    }
 }
+
+
 /* Media Queries */
+
 @media (max-width: 680px) {
-  .header h1 {
-    margin-bottom: 20px;
-    text-align: center;
-  }
-
-  .nav {
-    float: none;
-    text-align: center;
-  }
-
-  .banner {
-    height: 220px;
-  }
-
-  .nav-pills li:first-child a  {
-    margin-left: 0;
-  }
+    .header h1 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .nav {
+        float: none;
+        text-align: center;
+    }
+    .banner {
+        height: 220px;
+    }
+    .nav-pills li:first-child a {
+        margin-left: 0;
+    }
 }
-
 
 @media screen and (max-width: 480px) {
-  /* remember to change max/min */
-  .nav {
-    margin: 0 auto;
-  }
+    /* remember to change max/min */
+    .nav {
+        margin: 0 auto;
+    }
 }
