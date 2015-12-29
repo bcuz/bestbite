@@ -30,7 +30,7 @@ li {
   margin: 0 10px;
 }
 
-li:nth-child(2), li:nth-child(3) {
+.nav li:nth-child(2), .nav li:nth-child(3) {
   border: 1px solid rgba(216,25,47,1);
   border-radius: 4px;
 }
