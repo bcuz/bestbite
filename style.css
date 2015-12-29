@@ -105,7 +105,6 @@ li {
 
 /* "Page header" */
 .page-header h3 {
-  text-align: center;
   font-size: 30px;
 }
 
@@ -114,8 +113,11 @@ li {
 }
 
 /* Section */
-h4 {
+.section {
   text-align: center;
+}
+
+h4 {
   color: #D8192F;
 }
 
