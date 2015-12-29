@@ -191,3 +191,11 @@ h4 {
     margin-left: 0;
   }
 }
+
+
+@media screen and (max-width: 480px) {
+  /* remember to change max/min */
+  .nav {
+    margin: 0 auto;
+  }
+}
