@@ -130,9 +130,14 @@ h4 {
 }
 
 .footer {
-  height: 100px;
+  height: 130px;
   background-color: #eeeeee;
   font-size: 14px;
+}
+
+.footer .container {
+  position: relative;
+  top: 30px;
 }
 
 .footer a {
