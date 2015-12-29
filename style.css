@@ -159,15 +159,23 @@ h4 {
   float: left;
 }
 
+
+@media screen and (max-width: 1000px) {
+  /* remember to change max/min */
+
+  .header {
+    height: 175px;
+  }
+
+  .nav {
+    float: right;
+  }
+}
 /* Media Queries */
 @media (max-width: 680px) {
   .header h1 {
     margin-bottom: 20px;
     text-align: center;
-  }
-
-  .header {
-    height: 175px;
   }
 
   .nav {
@@ -181,17 +189,5 @@ h4 {
 
   .nav-pills li:first-child a  {
     margin-left: 0;
-  }
-}
-
-
-@media screen and (min-width: 680px) and (max-width: 1000px) {
-  /* remember to change max/min */
-  .header {
-    height: 175px;
-  }
-
-  .nav {
-    float: right;
   }
 }
