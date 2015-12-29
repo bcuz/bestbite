@@ -48,6 +48,12 @@ h1 {
   color:#fff;
 }
 
+.btn-default:focus {
+  background-color: rgba(216, 25, 47, 0.5);
+  color: #fff;
+  border-color: #fff;
+}
+
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover {
   background-color: rgba(216,25,47,1);
 }
