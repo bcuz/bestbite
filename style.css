@@ -115,7 +115,7 @@ h1 {
 /* Section */
 .section {
   text-align: center;
-  height: 350px;
+  margin-bottom: 75px;
 }
 
 h4 {
