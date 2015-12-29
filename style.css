@@ -134,6 +134,10 @@ h4 {
   background-color: #eeeeee;
 }
 
+.footer a {
+  color: #D8192F;
+}
+
 .footer .col-md-4:nth-child(2), .footer .col-md-4:nth-child(3) {
   text-align: center;
 }
