@@ -36,18 +36,14 @@ h1 {
     padding: 10px 20px;
 }
 
+/* li.active a:hover cancels out the blue hover of bootstrap.*/
 .nav-pills li.active a,
+.nav-pills li.active a:hover,
 .nav-pills li a:hover,
 .banner .btn:hover {
     background-color: rgba(216, 25, 47, 1);
     box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
     color: #fff;
-}
-
-/* this is to cancel out bootstrap's blue hover on active*/
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover {
-    background-color: rgba(216, 25, 47, 1);
 }
 
 .jumbotron .container {
