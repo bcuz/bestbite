@@ -59,8 +59,11 @@ h1 {
     background: url(https://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg) no-repeat center center;
     background-size: cover;
     color: #fff;
-    font-size: 60px;
     text-align: right;
+}
+
+.jumbotron h2 {
+    font-size: 60px;
 }
 
 .browse {
