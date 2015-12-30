@@ -64,6 +64,7 @@ h1 {
 
 .jumbotron h2 {
     font-size: 60px;
+    margin: 0;
 }
 
 .browse {
@@ -73,11 +74,6 @@ h1 {
 .share {
     margin-left: 17.66%;
 }
-
-.col-md-2 {
-    margin-top: -20px;
-}
-
 
 /* Banner */
 
