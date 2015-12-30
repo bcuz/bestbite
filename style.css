@@ -44,6 +44,7 @@ h1 {
     color: #fff;
 }
 
+/* this is to cancel out bootstrap's blue hover on active*/
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover {
     background-color: rgba(216, 25, 47, 1);
