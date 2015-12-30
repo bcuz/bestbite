@@ -92,7 +92,10 @@ h1 {
 
 /* targeting the button instead of the anchor
 leads to these properties overwriting the bootstrap focus properties since
-the custom stylesheet comes after. still sorta wierd though*/
+the custom stylesheet comes after. still sorta wierd though
+
+it's overwriting the focus effect of btn default...
+*/
 .banner .btn {
     background-color: rgba(216, 25, 47, .5);
     color: #fff;
